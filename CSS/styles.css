@@ -17,6 +17,9 @@
 .logo-Web{
 	color: #2196F3;
 }
+ul {
+    list-style: none;
+    }
 .nav-head{
 	color: var(--title-color);
 	font-family: 'Roboto';
