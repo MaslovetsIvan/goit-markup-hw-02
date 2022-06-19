@@ -5,7 +5,7 @@
   }
 
   /*HEADER*/
-.logo{
+.logo-header{
 	color: #212121;
 	font-family: 'Raleway';
 	font-weight: 700;
@@ -14,14 +14,14 @@
 	letter-spacing: 0.03em;
 	text-decoration: none;
 }
-.logo-Web{
+.logo-web{
 	color: #2196F3;
 }
 ul {
     list-style: none;
     }
 .nav-head{
-	color: var(--paragraph-color);
+	color: var(--title-color);
 	font-family: 'Roboto';
 	font-weight: 500;
 	font-size: 14px;
@@ -60,7 +60,7 @@ body{
     font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
-    letter-spacing: 1.87;
+    line-height: 1.87;
 	background:var(--button-COLOR) ;
 	color: #FFFFFF;
 	text-align: center;
@@ -72,7 +72,7 @@ body{
 .submenu-titel{
     color: var(--title-color);
     text-transform:uppercase;
-    Font size: 14px;
+    font-size: 14px;
     line-height: 1.14;
 }
 .basic-title{
@@ -92,7 +92,7 @@ body{
 }
 .team-title{
     color: var(--title-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -100,9 +100,9 @@ body{
     font-family:Roboto;
     background:  #F5F4FA;
     color: var(--title-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.39;
+    line-height: 1.62;
     letter-spacing: 0.03em;
     border: 0;
     
@@ -132,19 +132,40 @@ body{
 }
 footer{
     background: #2F303A;
-
+   
+}
+.logo-footer{
+    color: #FFFFFF;
+	font-family: 'Raleway';
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 .nav-footer{
     font-style: normal;
-    color: var(--paragraph-color);
+    color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
 .nav-footer:hover,
 .nav-footer:focus{
    color: #2196F3;
 }
+.nav-footer-city{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+}
+.nav-footer-city:hover,
+.nav-footer-city:focus{
+    color: #2196F3;
+}
+
+
     
