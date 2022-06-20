@@ -35,6 +35,14 @@ ul {
 .nav-head:focus {
 	color: #2196F3;
 }
+.nav-contact{
+    color: var(--paragraph-color);
+}
+.nav-contact:hover,
+.nav-contact:focus{
+    color: #2196F3;
+}
+
 
 body{ 
 	font-family: 'Roboto', sans-serif;
